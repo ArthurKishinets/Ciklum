@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'segoe';
+    src: url('../font/microsoft/segoe/ufonts.com_segoe_ui_semibold.eot');
+    src: url('../font/microsoft/segoe/latest.woff') format('woff'),
+         url('../font/microsoft/segoe/ufonts.com_segoe-ui-semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'segoe';
+    src: url('../font/microsoft/shell-icons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'opensans';
+    src: url('../font/sans/OpenSans-Light-webfont.eot');
+    src: url('../font/sans/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../font/sans/7.woff2') format('woff2'),
+		url('../font/sans/OpenSans-Light-webfont.woff') format('woff'),
+
+         url('../font/sans/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../font/sans/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'myriad';
+    src: url('../font/myriad-set-pro_text.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// selects IE only
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   header .right_corner button {
+        border-bottom: none !important;
+   }
+}
+
+/* Simple reset */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (min-width: 1600px) {
+    body .dropbox .background {
+        background-position: 100% 100%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    body footer .lists {
+        padding: 35px 0;
+        width: 60%;
+        margin: 0 auto;
+        .list {
+            margin: 0 6% 0 5%;
+        }
+    }
+}
